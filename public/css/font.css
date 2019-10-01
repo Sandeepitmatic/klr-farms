@@ -1,0 +1,53 @@
+body{
+    font-family: 'GothamNarrow';
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'GothamNarrow';
+    font-weight: 300;
+    src:  url('../fonts/GothamNarrow-Light.otf') format('woff2'),
+    url('../fonts/GothamNarrow-Light.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'GothamNarrow';
+    font-weight: 500;
+    src:  url('../fonts/GothamNarrow-Medium.otf') format('woff2'),
+    url('../fonts/GothamNarrow-Medium.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'GothamNarrow';
+    font-weight: 600;
+    src:  url('../fonts/GothamNarrow-ultra.otf') format('woff2'),
+    url('../fonts/GothamNarrow-ultra.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'GothamNarrow';
+    font-weight: 700;
+    src:  url('../fonts/GothamNarrow-Black.otf') format('woff2'),
+    url('../fonts/GothamNarrow-Black.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'GothamNarrow';
+    font-weight: 400;
+    src:  url('../fonts/GOTHAMBOOK.TTF') format('woff2'),
+    url('../fonts/GOTHAMBOOK.TTF') format('woff');
+}
+
+
+@font-face {
+    font-family: 'MyriadPro';
+    font-weight: 300;
+    src:  url('../fonts/MyriadPro-Light.otf') format('woff2'),
+    url('../fonts/MyriadPro-Light.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'MyriadPro';
+    font-weight: 500;
+    src:  url('../fonts/MYRIADPRO-REGULAR.OTF') format('woff2'),
+    url('../fonts/MYRIADPRO-REGULAR.OTF') format('woff');
+}

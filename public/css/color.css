@@ -1,0 +1,26 @@
+.bg-black {
+    background: #121619;
+}
+
+.text_golden {
+    color: #e5c687;
+}
+
+.back_dark_golden {
+    background: #f7b05b;
+}
+
+.back_golden {
+    background: #e5c687;
+}
+
+.form-control::placeholder {
+    color: #f7b05b;
+}
+.green_back{
+    background: #2d4739;
+}
+
+.item_shadow{
+    box-shadow: 6px 6px 0 0 #ddd;
+}
