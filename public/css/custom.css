@@ -33,8 +33,23 @@ input:active, button:active {
     border: none;
 }
 
+.bl_20 {
+    border-top-left-radius: 20px;
+}
+
+.br_20 {
+    border-bottom-right-radius: 20px;
+}
+
 /******* Global Css ******/
 
+.service_section > ul > li a {
+    padding-left: 12px;
+}
+
+.pr_12 {
+    padding-right: 12px;
+}
 
 .default_button {
     float: left;
@@ -175,6 +190,11 @@ input:-webkit-autofill:active {
     right: 15px;
 }
 
+.overlay_heading {
+    font-size: 100px;
+    font-weight: 400;
+}
+
 /****** Header ******/
 header.header {
     height: 100px;
@@ -202,12 +222,13 @@ header.header ul li:last-child {
     margin-right: 0;
 }
 
-header.header ul.headerLeftMenu li:last-child a{
+header.header ul.headerLeftMenu li:last-child a {
     color: #ffffff;
     background: #2d4739;
     padding: 7px 18px;
     border-radius: 13px;
 }
+
 .header .contact_ul li a:hover {
     color: #ffffff;
 }
@@ -223,6 +244,8 @@ header.header ul.headerLeftMenu li:last-child a{
 .video_section {
     float: left;
     width: 100%;
+    height: calc(100vh - 100px);
+    overflow: hidden;
 }
 
 .video_section img {
@@ -274,4 +297,226 @@ header.header ul.headerLeftMenu li:last-child a{
     font-size: 18px;
     font-weight: 400;
     color: #ffffff;
+}
+
+
+/******* About Page ********/
+
+.about_farms {
+    float: left;
+    width: 100%;
+}
+
+.about_farms .section_heading span {
+    font-size: 24px;
+}
+
+.about_farms .section_heading p {
+    font-size: 20px;
+    color: #b7b7b7;
+}
+
+.gallery_images img {
+    width: 100%;
+}
+
+.gallery_images .left__image {
+    float: left;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+
+.gallery_images .left__image img {
+    min-height: 100%;
+}
+
+.right_top_image {
+    float: left;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.gallery_images .right_top_image img {
+    min-height: 100%;
+}
+
+.right_bottom_image {
+    float: left;
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+}
+
+.gallery_images .right_bottom_image img {
+    min-height: 100%;
+}
+
+/****** Service Section ******/
+
+.service_section {
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+
+.service_section ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.service_section > ul > li {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.service_section > ul > li a {
+    color: #ffffff;
+    float: left;
+    width: 100%;
+    background: #121619;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    border-radius: 0 !important;
+    font-size: 20px;
+}
+
+.service_section ul li a.active {
+    background: #e5c687 !important;
+    color: #121619 !important;
+}
+
+.service_section .tab-pane {
+    width: calc(100% - 5rem);
+    background: #ffffff;
+    padding: 60px 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin: 100px 0;
+    position: relative;
+}
+
+.service_section .tab-pane .default_button {
+    position: absolute;
+    top: -33px;
+    left: 40px;
+}
+
+.service_section .tab-pane p {
+    font-size: 20px;
+}
+
+.service_section .tabs_points ul {
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.service_section .tabs_points h3 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+.service_section_gallery {
+    float: right;
+    width: calc(100% - 5rem);
+}
+
+.service_section_gallery .left__image {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.service_section_gallery .left__image img {
+    width: 100%;
+    min-height: 100%;
+}
+
+.service_section_gallery .right_top_image {
+    width: 100%;
+    height: 242px;
+    overflow: hidden;
+}
+
+.service_section_gallery .right_top_image img {
+    width: 100%;
+    min-height: 100%;
+}
+
+.service_section_gallery .right_bottom_image {
+    width: 100%;
+    height: 242px;
+    overflow: hidden;
+}
+
+.service_section_gallery .right_bottom_image img {
+    width: 100%;
+    min-height: 100%;
+}
+
+/******* Contact Us *******/
+
+.contact_section {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact_cards {
+    float: left;
+    width: 100%;
+    height: 270px;
+    background: #d5a75a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_cards img {
+    width: 70px;
+    margin-top: 30px;
+}
+
+.contact_cards h2 {
+    font-size: 26px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.contact_cards p {
+    font-size: 22px;
+    color: #ffffff;
+    line-height: 10px;
+}
+
+.contact_section .form-control {
+    background: #d5a75a !important;
+    border-bottom: none !important;
+    color: #ffffff !important;
+    font-size: 16px;
+    border-radius: 10px !important;
+}
+
+.contact_section .form-control::placeholder {
+    color: #ffffff !important;
+}
+
+.contact_section h1{
+    font-size: 60px;
+    font-weight: 400;
+    text-shadow: 2px 3px 0 #b69763;
+    color: #ffffff;
+}
+
+.contact_section p{
+    font-size: 30px;
+    margin-bottom: 20px;
 }

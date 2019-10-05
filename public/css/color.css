@@ -17,10 +17,15 @@
 .form-control::placeholder {
     color: #f7b05b;
 }
-.green_back{
+
+.green_back {
     background: #2d4739;
 }
 
-.item_shadow{
+.item_shadow {
     box-shadow: 6px 6px 0 0 #ddd;
+}
+
+.grey_back {
+    background: #b7b7b7;
 }
